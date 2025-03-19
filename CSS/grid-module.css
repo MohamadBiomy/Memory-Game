@@ -1,0 +1,110 @@
+.grid-container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 0px) {
+  .grid-container {
+    gap: 10px;
+    padding: 10px;
+    width: 90%;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  }
+}
+@media (min-width: 380px) {
+  .grid-container {
+    gap: 10px;
+    padding: 10px;
+    width: 90%;
+    grid-template-columns: repeat(5, minmax(60px, 1fr));
+  }
+}
+@media (min-width: 480px) {
+  .grid-container {
+    gap: 10px;
+    padding: 10px;
+    width: 300px;
+    grid-template-columns: repeat(5, minmax(60px, 1fr));
+  }
+}
+@media (min-width: 600px) {
+  .grid-container {
+    width: 400px;
+    grid-template-columns: repeat(5, minmax(76px, 1fr));
+  }
+}
+@media (min-width: 768px) {
+  .grid-container {
+    gap: 14px;
+    padding: 14px;
+    width: 600px;
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
+  }
+}
+@media (min-width: 980px) {
+  .grid-container {
+    gap: 20px;
+    padding: 20px;
+    width: 760px;
+    grid-template-columns: repeat(5, minmax(110px, 1fr));
+  }
+}
+@media (min-width: 1200px) {
+  .grid-container {
+    gap: 20px;
+    padding: 20px;
+    width: 900px;
+    grid-template-columns: repeat(5, minmax(130px, 1fr));
+  }
+}
+@media (min-width: 1440px) {
+  .grid-container {
+    gap: 20px;
+    padding: 20px;
+    width: 1100px;
+    grid-template-columns: repeat(5, minmax(130px, 1fr));
+  }
+}
+
+.grid-container div {
+  aspect-ratio: 1 / 1;
+}
+
+
+@media (min-width: 0px) {
+  .game {
+    width: 90%;
+  }
+}
+@media (min-width: 480px) {
+  .game {
+    width: 90%;
+  }
+}
+@media (min-width: 600px) {
+  .game {
+    width: 76%;
+  }
+}
+@media (min-width: 768px) {
+  .game {
+    width: 600px;
+  }
+}
+@media (min-width: 980px) {
+  .game {
+    width: 760px;
+  }
+}
+@media (min-width: 1200px) {
+  .game {
+    width: 900px;
+  }
+}
+@media (min-width: 1440px) {
+  .game {
+    width: 1100px;
+  }
+}
